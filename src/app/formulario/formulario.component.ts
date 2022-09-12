@@ -16,6 +16,6 @@ export class FormularioComponent implements OnInit {
   numero2: number = 0;
 
   somar(){
-    alert(this.numero1 + this.numero2)
+    alert(Number(this.numero1) + Number(this.numero2))
   }
 }

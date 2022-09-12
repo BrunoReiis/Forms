@@ -1,9 +1,9 @@
 <form #formSoma="ngForm">
   <label>Numero 1: </label>
-  <input type="text" [(ngModel)]="numero1" />
+  <input type="text" name="numero1" [(ngModel)]="numero1" />
   <br>
   <label>Numero 2: </label>
-  <input type="text" [(ngModel)]="numero2" />
+  <input type="text" name="numero2" [(ngModel)]="numero2" />
   <br>
   <button (click)="somar()">Calcular</button>
 </form>
