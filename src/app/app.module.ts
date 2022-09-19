@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { ContentComponent } from './content/content.component';
 import { FooterComponent } from './footer/footer.component';
 import { FormularioComponent } from './formulario/formulario.component';
+import { MediaEscolarComponent } from './media-escolar/media-escolar.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FormularioComponent } from './formulario/formulario.component';
     HeaderComponent,
     ContentComponent,
     FooterComponent,
-    FormularioComponent
+    FormularioComponent,
+    MediaEscolarComponent
   ],
   imports: [
     BrowserModule,
